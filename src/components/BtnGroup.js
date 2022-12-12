@@ -10,7 +10,7 @@ const BtnGroup = ({btnToggle,setBtnToggle}) => {
     }
 
     return(
-        <div>
+        <div style={{textAlign: 'center', marginBottom: '20pt'}}>
             {btnToggle.map((a,i)=>
                 <Button 
                     key={i} 
