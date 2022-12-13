@@ -45,9 +45,7 @@ const MainTemplate = () => {
             <button style={{margin: '0 auto', display: 'block'}} onClick={(e)=>{onClick(e, text, btnToggle)}}>
                 생성 및 복사
             </button>
-            {result.length === 1 ? <h2>클릭하면 문장이 생성되고 클립보드에 복사됩니다</h2> : <h2 style={{textAlign: 'center'}}>{result.join(' ')}</h2>}
-            
-            
+            {result.length === 1 ? <h2 style={{textAlign: 'center', color: 'gray'}}>클릭하면 문장이 생성되고 클립보드에 복사됩니다</h2> : <h2 style={{textAlign: 'center'}}>{result.join(' ')}</h2>}
         </div>
     )
 }
